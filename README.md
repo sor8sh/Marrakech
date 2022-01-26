@@ -16,8 +16,8 @@ Board game rules ([BoardGameGeek](https://boardgamegeek.com/boardgame/29223/marr
 In Marrakech each player takes the role of a rug salesperson who tries to outwit the competition. Each player starts with **10 coins** and an **equal number of carpets**.
 
 On your turn, you may: 
-1. rotate Assam 90 degrees. 
-2. roll the dice and move him forward as many spaces as showing (d6: 1, 2, 2, 3, 3, 4).
+1. Rotate Assam 90 degrees. 
+2. Roll the dice and move him forward as many spaces as showing (d6: 1, 2, 2, 3, 3, 4).
 3. If Assam reaches the edge of the board, follow the curve and continue moving in the next row.
 4. If Assam lands on another player's carpet, you must pay that player 1 coin per square showing that is contiguous with the landed-on square.
 5. Place one of your carpets orthogonally adjacent to Assam (but may not directly overlay another carpet).
