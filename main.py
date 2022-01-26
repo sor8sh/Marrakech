@@ -289,7 +289,7 @@ class Carpet:
 
 
 class Player:
-    def __init__(self, color_carpet, number_carpets, rgb, coin=30):
+    def __init__(self, color_carpet, number_carpets, rgb, coin=10):
         self.color = color_carpet
         self.playerCarpet = [Carpet(color_carpet, i) for i in range(number_carpets)]
         self.coin = coin
@@ -508,7 +508,7 @@ while gameBoard.get_round() < numberCarpets:
     if pygame.mouse.get_pressed()[0] is True and pressDice is True:
         if diceX < mousePosition[0] < diceX + 50:
             if diceY < mousePosition[1] < diceY + 20:
-                num = random.randrange(1, 7)
+                num = random.choice([1, 2, 2, 3, 3, 4])
                 myAssam.move(num)
                 pressDice = False
                 pressClick = True
